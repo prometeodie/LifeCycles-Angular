@@ -1,0 +1,15 @@
+
+    {{nombre}}
+  <input type="text" placeholder="Hola mundo" [(ngModel)]="nombre">
+
+<button (click)="guardar()">Click</button>
+
+<br>
+<br>
+
+<app-muestra-nombre [nombre]="nombre"></app-muestra-nombre>
+
+<br>
+<br>
+
+<h2>Segundos:{{segundos | json}}</h2>
